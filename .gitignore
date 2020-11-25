@@ -5,3 +5,5 @@
 /CodeBehind/.vs
 /CodeBehind/CodeBehind.TiroCurto.AutoMapper/bin/Debug/netcoreapp3.1
 /CodeBehind/CodeBehind.TiroCurto.AutoMapper/obj
+/CodeBehind/CodeBehind.TiroCurto.InvokeApi/bin/Debug/netcoreapp3.1
+/CodeBehind/CodeBehind.TiroCurto.InvokeApi/obj
