@@ -8,7 +8,7 @@ namespace CodeBehind.Repeticao
     class Program
     {
         static void Main(string[] args)
-        {
+        { 
             //ForSimples();
 
             //WhileSimples();
