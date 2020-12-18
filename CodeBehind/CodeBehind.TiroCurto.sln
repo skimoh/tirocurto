@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.TiroCurto.AutoMa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.TiroCurto.InvokeApi", "CodeBehind.TiroCurto.InvokeApi\CodeBehind.TiroCurto.InvokeApi.csproj", "{7D5BC08B-2A84-4CCA-8D7B-50945B7002CB}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.Repeticao", "CodeBehind.Repeticao\CodeBehind.Repeticao.csproj", "{1A67A8E7-A142-4F83-A53B-91E868068D06}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7D5BC08B-2A84-4CCA-8D7B-50945B7002CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D5BC08B-2A84-4CCA-8D7B-50945B7002CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D5BC08B-2A84-4CCA-8D7B-50945B7002CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A67A8E7-A142-4F83-A53B-91E868068D06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A67A8E7-A142-4F83-A53B-91E868068D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A67A8E7-A142-4F83-A53B-91E868068D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A67A8E7-A142-4F83-A53B-91E868068D06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

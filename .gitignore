@@ -1,4 +1,4 @@
-﻿################################################################################
+################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
@@ -7,3 +7,25 @@
 /CodeBehind/CodeBehind.TiroCurto.AutoMapper/obj
 /CodeBehind/CodeBehind.TiroCurto.InvokeApi/bin/Debug/netcoreapp3.1
 /CodeBehind/CodeBehind.TiroCurto.InvokeApi/obj
+CodeBehind/CodeBehind.Repeticao/bin/Debug/netcoreapp3.1/CodeBehind.Repeticao.deps.json
+CodeBehind/CodeBehind.Repeticao/bin/Debug/netcoreapp3.1/CodeBehind.Repeticao.dll
+CodeBehind/CodeBehind.Repeticao/bin/Debug/netcoreapp3.1/CodeBehind.Repeticao.exe
+CodeBehind/CodeBehind.Repeticao/bin/Debug/netcoreapp3.1/CodeBehind.Repeticao.pdb
+CodeBehind/CodeBehind.Repeticao/bin/Debug/netcoreapp3.1/CodeBehind.Repeticao.runtimeconfig.dev.json
+CodeBehind/CodeBehind.Repeticao/bin/Debug/netcoreapp3.1/CodeBehind.Repeticao.runtimeconfig.json
+CodeBehind/CodeBehind.Repeticao/obj/CodeBehind.Repeticao.csproj.nuget.dgspec.json
+CodeBehind/CodeBehind.Repeticao/obj/CodeBehind.Repeticao.csproj.nuget.g.props
+CodeBehind/CodeBehind.Repeticao/obj/CodeBehind.Repeticao.csproj.nuget.g.targets
+CodeBehind/CodeBehind.Repeticao/obj/project.assets.json
+CodeBehind/CodeBehind.Repeticao/obj/project.nuget.cache
+CodeBehind/CodeBehind.Repeticao/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
+CodeBehind/CodeBehind.Repeticao/obj/Debug/netcoreapp3.1/apphost.exe
+CodeBehind/CodeBehind.Repeticao/obj/Debug/netcoreapp3.1/CodeBehind.Repeticao.AssemblyInfo.cs
+CodeBehind/CodeBehind.Repeticao/obj/Debug/netcoreapp3.1/CodeBehind.Repeticao.AssemblyInfoInputs.cache
+CodeBehind/CodeBehind.Repeticao/obj/Debug/netcoreapp3.1/CodeBehind.Repeticao.assets.cache
+CodeBehind/CodeBehind.Repeticao/obj/Debug/netcoreapp3.1/CodeBehind.Repeticao.csproj.CoreCompileInputs.cache
+CodeBehind/CodeBehind.Repeticao/obj/Debug/netcoreapp3.1/CodeBehind.Repeticao.csproj.FileListAbsolute.txt
+CodeBehind/CodeBehind.Repeticao/obj/Debug/netcoreapp3.1/CodeBehind.Repeticao.csprojAssemblyReference.cache
+CodeBehind/CodeBehind.Repeticao/obj/Debug/netcoreapp3.1/CodeBehind.Repeticao.dll
+CodeBehind/CodeBehind.Repeticao/obj/Debug/netcoreapp3.1/CodeBehind.Repeticao.genruntimeconfig.cache
+CodeBehind/CodeBehind.Repeticao/obj/Debug/netcoreapp3.1/CodeBehind.Repeticao.pdb
