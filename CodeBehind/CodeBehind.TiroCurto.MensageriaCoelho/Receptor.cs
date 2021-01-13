@@ -1,7 +1,6 @@
-﻿using RabbitMQ.Client;
-using RabbitMQ.Client.Events;
+﻿//***CODE BEHIND - BY RODOLFO.FONSECA***//
+using RabbitMQ.Client;
 using System;
-using System.Collections.Generic;
 using System.Text;
 
 namespace CodeBehind.MensageriaCoelho

@@ -1,7 +1,6 @@
-﻿using Paramore.Brighter;
+﻿//***CODE BEHIND - BY RODOLFO.FONSECA***//
+using Paramore.Brighter;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CodeBehind.MensageriaCoelho.Ouvir
 {

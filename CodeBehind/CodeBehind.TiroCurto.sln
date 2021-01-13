@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.TiroCurto.Mensag
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.TiroCurto.MensageriaCoelho.Ouvir", "CodeBehind.TiroCurto.MensageriaCoelho.Ouvir\CodeBehind.TiroCurto.MensageriaCoelho.Ouvir.csproj", "{98BB57BD-679D-4ED0-9FED-7EC5798CDBDB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RabbitMQ", "RabbitMQ", "{D1704C7D-EE49-47DC-9E12-9E7B7064626E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +50,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7BC9C87A-6887-45FC-B21A-CAAD71395088} = {D1704C7D-EE49-47DC-9E12-9E7B7064626E}
+		{98BB57BD-679D-4ED0-9FED-7EC5798CDBDB} = {D1704C7D-EE49-47DC-9E12-9E7B7064626E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36B5D1C9-E29B-4B78-AD82-01D012EEA18A}

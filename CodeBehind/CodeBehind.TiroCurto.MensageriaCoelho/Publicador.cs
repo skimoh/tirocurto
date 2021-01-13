@@ -1,4 +1,5 @@
-﻿using RabbitMQ.Client;
+﻿//***CODE BEHIND - BY RODOLFO.FONSECA***//
+using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System;
 using System.Collections.Generic;
