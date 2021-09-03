@@ -42,3 +42,6 @@ CodeBehind/CodeBehind.Repeticao/obj/Debug/netcoreapp3.1/CodeBehind.Repeticao.pdb
 /CodeBehind/CodeBehind.TiroCurto.Util/obj
 /CodeBehind/CodeBehind.TiroCurto.Util/bin/Debug/netcoreapp3.1
 /CodeBehind/CodeBehind.TiroCurto.Game/obj/Debug
+/CodeBehind/CodeBehind.TiroCurto.Game/bin/Debug
+/CodeBehind/CodeBehind.TiroCurto.Azure.Mensageria/bin/Debug/netcoreapp3.1
+/CodeBehind/CodeBehind.TiroCurto.Azure.Mensageria/obj
