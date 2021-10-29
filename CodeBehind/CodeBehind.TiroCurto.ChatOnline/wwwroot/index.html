@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Mensagens</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <style>
+        .quandoManda {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container col-6">
+
+        <div class="form-group">
+            <label for="usuario">Seu Apelido</label>
+            <input type="text" id="usuario" class="form-control" readonly />
+        </div>
+
+        <div class="form-group">
+            <label for="usuario">Destino</label>
+            <select id="destino" class="form-control">
+                <option value="joao">Joao</option>
+                <option value="pedro">pedro</option>
+                <option value="samuel">samuel</option>
+                <option value="lucas">lucas</option>
+                <option value="todos">todos</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea class="form-control" id="mensagem" rows="2"></textarea>
+        </div>
+        <input type="button" class="btn btn-primary" id="send" value="Enviar Mensagem" />
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <hr />
+        </div>
+    </div>
+
+    <div class="container col-6">
+        <ul class="list-group" id="messagesList"></ul>
+    </div>
+
+    <script src="jquery-3.4.1.slim.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="signalr.min.js"></script>
+    <script src='main.js'></script>
+</body>
+</html>
