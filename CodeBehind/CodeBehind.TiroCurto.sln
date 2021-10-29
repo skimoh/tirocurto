@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.TiroCurto.Azure.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.TiroCurto.Azure.Funcao", "CodeBehind.TiroCurto.Azure.Funcao\CodeBehind.TiroCurto.Azure.Funcao.csproj", "{9D12232E-6B27-4D37-8CB5-AB318B93CCC9}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.TiroCurto.ChatOnline", "CodeBehind.TiroCurto.ChatOnline\CodeBehind.TiroCurto.ChatOnline.csproj", "{F55FCF51-92C6-40D4-BDDA-5D58F7738FCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{9D12232E-6B27-4D37-8CB5-AB318B93CCC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D12232E-6B27-4D37-8CB5-AB318B93CCC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D12232E-6B27-4D37-8CB5-AB318B93CCC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F55FCF51-92C6-40D4-BDDA-5D58F7738FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F55FCF51-92C6-40D4-BDDA-5D58F7738FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F55FCF51-92C6-40D4-BDDA-5D58F7738FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F55FCF51-92C6-40D4-BDDA-5D58F7738FCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
