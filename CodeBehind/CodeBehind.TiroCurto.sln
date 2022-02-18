@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30413.136
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.TiroCurto.AutoMapper", "CodeBehind.TiroCurto.AutoMapper\CodeBehind.TiroCurto.AutoMapper.csproj", "{8978D8FB-809B-430F-84FC-F28ED64B58FD}"
 EndProject
@@ -32,6 +32,14 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.TiroCurto.Azure.Funcao", "CodeBehind.TiroCurto.Azure.Funcao\CodeBehind.TiroCurto.Azure.Funcao.csproj", "{9D12232E-6B27-4D37-8CB5-AB318B93CCC9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.TiroCurto.ChatOnline", "CodeBehind.TiroCurto.ChatOnline\CodeBehind.TiroCurto.ChatOnline.csproj", "{F55FCF51-92C6-40D4-BDDA-5D58F7738FCD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servicos", "Servicos", "{5E14FA93-A1E8-4956-BBD0-9EF5988297D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBehind.TiroCurto.ServicoNativo", "CodeBehind.TiroCurto.ServicoNativo\CodeBehind.TiroCurto.ServicoNativo.csproj", "{30623A46-0596-4223-9F74-4FAE96C2124F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBehind.TiroCurto.ServicoComRelogio", "CodeBehind.TiroCurto.ServicoComRelogio\CodeBehind.TiroCurto.ServicoComRelogio.csproj", "{3D7AC3C7-9158-43F3-ACF1-250D52AF72F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBehind.TiroCurto.PendureFogo", "CodeBehind.TiroCurto.PendureFogo\CodeBehind.TiroCurto.PendureFogo.csproj", "{EFCC6341-A531-4DAE-B091-B318B5FC3380}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +95,18 @@ Global
 		{F55FCF51-92C6-40D4-BDDA-5D58F7738FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F55FCF51-92C6-40D4-BDDA-5D58F7738FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F55FCF51-92C6-40D4-BDDA-5D58F7738FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30623A46-0596-4223-9F74-4FAE96C2124F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30623A46-0596-4223-9F74-4FAE96C2124F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30623A46-0596-4223-9F74-4FAE96C2124F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30623A46-0596-4223-9F74-4FAE96C2124F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D7AC3C7-9158-43F3-ACF1-250D52AF72F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D7AC3C7-9158-43F3-ACF1-250D52AF72F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D7AC3C7-9158-43F3-ACF1-250D52AF72F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D7AC3C7-9158-43F3-ACF1-250D52AF72F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFCC6341-A531-4DAE-B091-B318B5FC3380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFCC6341-A531-4DAE-B091-B318B5FC3380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFCC6341-A531-4DAE-B091-B318B5FC3380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFCC6341-A531-4DAE-B091-B318B5FC3380}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -97,6 +117,9 @@ Global
 		{DF9E07E5-F9DF-4922-889F-9F249064C6F3} = {9DBBA637-24F0-4A1B-A4A8-0118280E953C}
 		{E297A045-2D6E-4D27-9235-C94EA31F680F} = {87E0A454-9C4B-4794-84D5-BA35CF897547}
 		{9D12232E-6B27-4D37-8CB5-AB318B93CCC9} = {87E0A454-9C4B-4794-84D5-BA35CF897547}
+		{30623A46-0596-4223-9F74-4FAE96C2124F} = {5E14FA93-A1E8-4956-BBD0-9EF5988297D2}
+		{3D7AC3C7-9158-43F3-ACF1-250D52AF72F6} = {5E14FA93-A1E8-4956-BBD0-9EF5988297D2}
+		{EFCC6341-A531-4DAE-B091-B318B5FC3380} = {5E14FA93-A1E8-4956-BBD0-9EF5988297D2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36B5D1C9-E29B-4B78-AD82-01D012EEA18A}
