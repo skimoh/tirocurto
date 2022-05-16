@@ -16,7 +16,7 @@ namespace CodeBehind.TiroCurto.PendureFogo.Controllers
         }
 
         [HttpGet("RodaUmaVez")]
-        //fire and forget - executa apenas uma vez
+        //Os trabalhos de despedir e esquecer são executados apenas uma vez e quase imediatamente após a criação.
         public IActionResult RodaUmaVez()
         {
             var jobFireForget = BackgroundJob.Enqueue(() => Acao.RegistrarMensagem("RodaUmaVez"));
@@ -26,27 +26,27 @@ namespace CodeBehind.TiroCurto.PendureFogo.Controllers
 
 
         [HttpGet("RodarAposTempo")]
-        //delayed depois de 30seg
+        //Os trabalhos atrasados ​​também são executados apenas uma vez, mas não imediatamente, após um determinado intervalo de tempo.
         public IActionResult RodarAposTempo()
         {
-            var jobDelayed = BackgroundJob.Schedule(() => Acao.RegistrarMensagem("RodarAposTempo"), TimeSpan.FromSeconds(30));
+            var jobDelayed = BackgroundJob.Schedule(() => Acao.RegistrarMensagem("RodarAposTempo"), TimeSpan.FromSeconds(10));
 
             return Ok();
         }
 
         [HttpGet("RodarAposTempoContinuo")]
-        //aguarda e roda
+        //As continuações são executadas quando seu trabalho pai foi concluído.
         public IActionResult RodarAposTempoContinuo()
         {
-            var jobDelayed = BackgroundJob.Schedule(() => Acao.RegistrarMensagem("RodaUmaVez"), TimeSpan.FromSeconds(30));
+            var jobDelayed = BackgroundJob.Schedule(() => Acao.RegistrarMensagem("RodaUmaVez"), TimeSpan.FromSeconds(10));
 
-            BackgroundJob.ContinueWith(jobDelayed, () => Acao.RegistrarMensagem("RodarAposTempoContinuo"));
+            BackgroundJob.ContinueJobWith(jobDelayed, () => Acao.RegistrarMensagem("RodarAposTempoContinuo"));
 
             return Ok();
         }
 
         [HttpGet("RodarSempre")]
-        //continuo a cada minuno
+        //Trabalhos recorrentes são acionados muitas vezes no agendamento CRON especificado.
         public IActionResult RodarSempre()
         {
             RecurringJob.AddOrUpdate(() => Acao.RegistrarMensagem("RodarSempre"), Cron.Minutely);
