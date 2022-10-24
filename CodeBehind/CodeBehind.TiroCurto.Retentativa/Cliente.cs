@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//***CODE BEHIND - BY RODOLFO.FONSECA***//
+
 
 namespace CodeBehind.TiroCurto.Retentativa
 {

@@ -1,4 +1,6 @@
-﻿namespace CodeBehind.TiroCurto.Retentativa
+﻿//***CODE BEHIND - BY RODOLFO.FONSECA***//
+
+namespace CodeBehind.TiroCurto.Retentativa
 {
     internal class DominioExcecao : Exception
     {

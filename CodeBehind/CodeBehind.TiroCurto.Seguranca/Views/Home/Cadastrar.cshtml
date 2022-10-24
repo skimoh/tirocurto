@@ -1,0 +1,58 @@
+﻿@model CodeBehind.TiroCurto.Seguranca.Models.ClienteVM
+@{
+    ViewData["Title"] = "Cliente";
+}
+<h1>@ViewData["Title"]</h1>
+
+@using (Html.BeginForm("Cadastrar", "Home", FormMethod.Post, new { @class = "form-control", @id = "formulario" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    <div class="row">
+        <div class="col-sm-4">
+            @Html.LabelFor(m => m.Nome)
+            @Html.TextBoxFor(m => m.Nome, new {@class="form-control"})
+            @Html.ValidationMessageFor(m => m.Nome)
+            @Html.HiddenFor(m=>m.Token)            
+        </div>
+        <div class="col-sm-4">
+            @Html.LabelFor(m => m.Senha)
+            @Html.TextBoxFor(m => m.Senha, new { @class="full-width form-control", @type="password", @id="password",@onkeyup="checkPasswordStrength();"})
+            <div id="password-strength-status"></div>
+        </div>
+    </div>
+    
+    <button class="g-recaptcha btn btn-primary"
+        data-sitekey="@Model.SiteKey"
+        data-callback='onSubmit'
+        data-action='submit'>
+        Submit
+    </button>
+    <hr />
+    <p>
+        @Model.Mensagem
+    </p>
+}
+
+@section scripts{
+    <script>
+        function onSubmit(token) {
+            document.getElementById("formulario").submit();
+        }
+
+        $(function () {
+            grecaptcha.ready(function () {
+                grecaptcha.execute('@Model.SiteKey', { action: 'submit' }).then(function (token) {
+                    console.log(token);
+                    document.getElementById("Token").value = token;
+                });
+            });
+        });
+
+        //CUIDADOS COM O LOCALSTORAGE
+        localStorage.setItem('DADOCLIENTE','@Model.ValorNaoSeguro');
+
+    </script>
+    <script src="https://www.google.com/recaptcha/api.js?render=@Model.SiteKey"></script>
+
+            }

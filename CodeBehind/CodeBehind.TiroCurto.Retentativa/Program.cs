@@ -1,4 +1,6 @@
-﻿using CodeBehind.TiroCurto.Retentativa;
+﻿//***CODE BEHIND - BY RODOLFO.FONSECA***//
+
+using CodeBehind.TiroCurto.Retentativa;
 using Polly;
 using Polly.Timeout;
 using System.Net;

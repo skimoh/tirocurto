@@ -43,7 +43,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.TiroCurto.Pendur
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.TiroCurto.Retentativa", "CodeBehind.TiroCurto.Retentativa\CodeBehind.TiroCurto.Retentativa.csproj", "{CB469D13-C85F-4CBA-8A84-A40D05ECADD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBehind.TiroCurto.UrnaEletronica", "CodeBehind.TiroCurto.UrnaEletronica\CodeBehind.TiroCurto.UrnaEletronica.csproj", "{2EC49280-E05C-4577-8F48-05CCC89CEC7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.TiroCurto.UrnaEletronica", "CodeBehind.TiroCurto.UrnaEletronica\CodeBehind.TiroCurto.UrnaEletronica.csproj", "{2EC49280-E05C-4577-8F48-05CCC89CEC7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBehind.TiroCurto.Seguranca", "CodeBehind.TiroCurto.Seguranca\CodeBehind.TiroCurto.Seguranca.csproj", "{832196F5-04F6-4A1A-89ED-AEC103CF0F59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -119,6 +121,10 @@ Global
 		{2EC49280-E05C-4577-8F48-05CCC89CEC7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EC49280-E05C-4577-8F48-05CCC89CEC7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EC49280-E05C-4577-8F48-05CCC89CEC7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832196F5-04F6-4A1A-89ED-AEC103CF0F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832196F5-04F6-4A1A-89ED-AEC103CF0F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832196F5-04F6-4A1A-89ED-AEC103CF0F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832196F5-04F6-4A1A-89ED-AEC103CF0F59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
