@@ -84,7 +84,7 @@ namespace CodeBehind.TiroCurto.Seguranca.Controllers
             var valido = _service.Verificar(vm.Token).GetAwaiter().GetResult();
             if (!valido)
             {
-                vm.Mensagem = "Captha Inválido";
+                vm.Mensagem = "Captcha Inválido";
             }
             else
             {
