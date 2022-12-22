@@ -13,7 +13,7 @@ namespace CodeBehind.TiroCurto.Injecao.Ninja.Controllers
         }
         
         public string Get()
-        {
+        {            
             return _camada.Metodo();
         }
     }
