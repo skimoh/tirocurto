@@ -1,7 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
+    <OutputType>Exe</OutputType>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspose.OCR" Version="23.7.0" />
+    <PackageReference Include="iTextSharp" Version="5.5.13.3" />
+    <PackageReference Include="System.Data.OleDb" Version="7.0.0" />
+  </ItemGroup>
 
 </Project>
