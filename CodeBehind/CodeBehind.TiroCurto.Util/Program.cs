@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Identity.Client;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,11 +11,13 @@ namespace CodeBehind.TiroCurto.Util
     {
         static void Main(string[] args)
         {
-            var path = @"c:\temp\arquivo.pdf";
-            var encontrou = HelperPDF.VerificaTexto(path, "genially");
+            //var path = @"c:\temp\arquivo.pdf";
+            //var encontrou = HelperPDF.VerificaTexto(path, "genially");
 
-            Console.WriteLine("O texto foi encontrado ? " + encontrou);
+            //Console.WriteLine("O texto foi encontrado ? " + encontrou);
 
+
+            var txt2 = EmailHelper.GetUnreadMailsImap();
         }
     }
 }

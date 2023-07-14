@@ -57,7 +57,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.TiroCurto.Injeca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBehind.TiroCurto.Injecao.Estrutura", "CodeBehind.TiroCurto.Injecao.Estrutura\CodeBehind.TiroCurto.Injecao.Estrutura.csproj", "{B4D86FBC-1993-4D3C-98A5-FAD66DA04007}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBehind.TiroCurto.CNABDemo", "CodeBehind.TiroCurto.CNABDemo\CodeBehind.TiroCurto.CNABDemo.csproj", "{BD1BD097-E522-4B18-A2EE-F13AF776DEDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.TiroCurto.CNABDemo", "CodeBehind.TiroCurto.CNABDemo\CodeBehind.TiroCurto.CNABDemo.csproj", "{BD1BD097-E522-4B18-A2EE-F13AF776DEDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
