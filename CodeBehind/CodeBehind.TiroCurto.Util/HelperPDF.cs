@@ -18,7 +18,7 @@ namespace CodeBehind.TiroCurto.Util
                     sb.Append(PdfTextExtractor.GetTextFromPage(arquivoPDF, i));
                 }
             }
-
+            //caracteres ordinais que não diferencia maiúsculas de minúsculas
             return sb.ToString().IndexOf(texto, StringComparison.OrdinalIgnoreCase) >= 0;
         }
     }

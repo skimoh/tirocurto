@@ -174,7 +174,7 @@ void GerarRemessa()
     sb.Append(Environment.NewLine);
     sb.Append("3"); //Registros de Detalhe
     foreach (var cliente in listaCliente)
-    {
+    {        
         foreach (var item in t.Where(x => x.Tipo == 3).OrderBy(x => x.Ordem))
         {
             if (item.Nome == "RG")
@@ -186,6 +186,8 @@ void GerarRemessa()
             if (item.Nome == "Idade")
                 sb.Append(PreencheValor(cliente.Idade.ToString(), item.Total, item.ValorPadrao, item.Formato));
         }
+        sb.Append(Environment.NewLine);
+        sb.Append("3"); //Registros de Detalhe
     }
 
     sb.Append(Environment.NewLine);

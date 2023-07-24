@@ -19,7 +19,7 @@ namespace CodeBehind.TiroCurto.Util
     /// </summary>
     public static class EmailHelper
     {
-        public static string _senha = "xx";
+        public static string _senha = "zdflmylzasvbgxtd";
 
 
         private static int _portaIMAP = 993;

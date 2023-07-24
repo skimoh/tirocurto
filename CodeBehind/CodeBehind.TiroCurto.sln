@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBehind.TiroCurto.Injeca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.TiroCurto.CNABDemo", "CodeBehind.TiroCurto.CNABDemo\CodeBehind.TiroCurto.CNABDemo.csproj", "{BD1BD097-E522-4B18-A2EE-F13AF776DEDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBehind.TiroCurto.Conciliacao", "CodeBehind.TiroCurto.Conciliacao\CodeBehind.TiroCurto.Conciliacao.csproj", "{4FECBA86-2B89-4B43-8225-4D47C28D4AE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -157,6 +159,10 @@ Global
 		{BD1BD097-E522-4B18-A2EE-F13AF776DEDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD1BD097-E522-4B18-A2EE-F13AF776DEDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD1BD097-E522-4B18-A2EE-F13AF776DEDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FECBA86-2B89-4B43-8225-4D47C28D4AE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FECBA86-2B89-4B43-8225-4D47C28D4AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FECBA86-2B89-4B43-8225-4D47C28D4AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FECBA86-2B89-4B43-8225-4D47C28D4AE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

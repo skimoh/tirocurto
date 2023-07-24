@@ -16,9 +16,9 @@ namespace CodeBehind.TiroCurto.InvokeApi
         {
             var client = new RestClient($"https://run.mocky.io/v3/73f60d83-f20d-4724-8d54-f98be085dd1d");
 
-            RestRequest request = new RestRequest("", Method.POST);
+            RestRequest request = new RestRequest("", Method.Post);
             request.AddJsonBody(new { Id = 5 });
-            var response = client.Execute(request);
+            var response = client.ExecuteAsync(request).GetAwaiter().GetResult();
             if(response.StatusCode == System.Net.HttpStatusCode.OK)
             {
                 Console.WriteLine(response.Content);
@@ -35,8 +35,8 @@ namespace CodeBehind.TiroCurto.InvokeApi
             string cep = "37130031";
 
             var client = new RestClient($"https://viacep.com.br/ws/{cep}/json/");
-            RestRequest request = new RestRequest("", Method.GET);
-            var response = client.Execute(request);
+            RestRequest request = new RestRequest("", Method.Get);
+            var response = client.ExecuteAsync(request).GetAwaiter().GetResult(); 
 
             if (response.StatusCode == System.Net.HttpStatusCode.OK)
                 Console.WriteLine(response.Content);
