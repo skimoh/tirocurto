@@ -7,13 +7,14 @@ namespace CodeBehind.TiroCurto.Util
     {
         static void Main(string[] args)
         {
-            var path = @"c:\temp\arquivo.pdf";
-            var encontrou = HelperPDF.VerificaTexto(path, "genially");
+            //var path = @"c:\temp\arquivo.pdf";
+            //var encontrou = HelperPDF.VerificaTexto(path, "genially");
 
-            Console.WriteLine("O texto foi encontrado ? " + encontrou);
+            //Console.WriteLine("O texto foi encontrado ? " + encontrou);
 
 
-            //var txt2 = EmailHelper.GetUnreadMailsImap();
+            //var pop = EmailHelper.GetUnreadMailsPop();
+            var imap = EmailHelper.GetUnreadMailsImap();
         }
     }
 }

@@ -19,12 +19,12 @@ namespace CodeBehind.TiroCurto.Util
     /// </summary>
     public static class EmailHelper
     {
-        public static string _senha = "zdflmylzasvbgxtd";
+        public static string _senha = "XXX";
 
 
         private static int _portaIMAP = 993;
         private static int _portaPOP = 995;
-        public static string _email = "codebehindbrasil@gmail.com";
+        public static string _email = "YYY@gmail.com";
         public static string _servidor = "pop.gmail.com";
 
         /// <summary>
@@ -51,11 +51,11 @@ namespace CodeBehind.TiroCurto.Util
                     Console.WriteLine("Total de e-mails: " + totalEmails);
 
                     // Percorrer os e-mails e exibir algumas informações
-                    for (int i = 0; i < totalEmails; i++)
-                    {
-                        var mensagem = client.GetMessage(i);
-                        retorno.Add(mensagem.HtmlBody);
-                    }
+                    //for (int i = 0; i < totalEmails; i++)
+                    //{
+                    //    var mensagem = client.GetMessage(i);
+                    //    retorno.Add(mensagem.HtmlBody);
+                    //}
                 }
                 else
                 {

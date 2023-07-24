@@ -12,7 +12,7 @@ try
         Console.WriteLine($"Valor da Transação: R$ {x.Amount}");
         Console.WriteLine($"Operação: {x.TransType}");
         Console.WriteLine($"Data Operação: {x.Date}");
-        Console.WriteLine($"Descriação: {x.Memo}");
+        Console.WriteLine($"Descrição: {x.Memo}");
         Console.WriteLine($"Código da transação: 123");// {x.TransactionId}");
 
     }
