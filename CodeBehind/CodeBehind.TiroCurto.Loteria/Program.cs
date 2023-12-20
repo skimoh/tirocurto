@@ -9,7 +9,7 @@ namespace CodeBehind.Loteria
         static void Main(string[] args)
         {
             MegaSena();
-            LotoFacil();
+           // LotoFacil();
 
             Console.WriteLine("Fim");
             Console.ReadKey();
@@ -17,32 +17,34 @@ namespace CodeBehind.Loteria
 
         private static void MegaSena()
         {
-            var book = new LinqToExcel.ExcelQueryFactory(@"c:\temp\mega.xlsx");
+            var book = new LinqToExcel.ExcelQueryFactory(@"c:\temp\Mega Sena.xlsx");
 
             var query =
-                from row in book.Worksheet("mega")
+                from row in book.Worksheet("MEGA SENA")
                 let item = new
                 {
-                    Concurso = row["Concurso "].Cast<int>(),
-                    Local = row["Local "].Cast<string>(),
-                    D1 = row["Coluna 1 "].Cast<int>(),
-                    D2 = row["Coluna 2 "].Cast<int>(),
-                    D3 = row["Coluna 3 "].Cast<int>(),
-                    D4 = row["Coluna 4 "].Cast<int>(),
-                    D5 = row["Coluna 5 "].Cast<int>(),
-                    D6 = row["Coluna 6 "].Cast<int>()
+                    Concurso = row["Concurso"].Cast<int>(),
+                    Local = row["Cidade / UF"].Cast<string>(),
+                    D1 = row["Bola1"].Cast<int>(),
+                    D2 = row["Bola2"].Cast<int>(),
+                    D3 = row["Bola3"].Cast<int>(),
+                    D4 = row["Bola4"].Cast<int>(),
+                    D5 = row["Bola5"].Cast<int>(),
+                    D6 = row["Bola6"].Cast<int>()
                 }
-                where row["Coluna 1 "].Cast<int>() != 0
+                where row["Bola1"].Cast<int>() != 0
                 select item;
 
 
-            List<int> todosNumeros = new List<int>();
-            todosNumeros.AddRange(query.Select(x => x.D1).ToArray());
-            todosNumeros.AddRange(query.Select(x => x.D2).ToArray());
-            todosNumeros.AddRange(query.Select(x => x.D3).ToArray());
-            todosNumeros.AddRange(query.Select(x => x.D4).ToArray());
-            todosNumeros.AddRange(query.Select(x => x.D5).ToArray());
-            todosNumeros.AddRange(query.Select(x => x.D6).ToArray());
+            List<int> todosNumeros =
+            [
+                .. query.Select(x => x.D1).ToArray(),
+                .. query.Select(x => x.D2).ToArray(),
+                .. query.Select(x => x.D3).ToArray(),
+                .. query.Select(x => x.D4).ToArray(),
+                .. query.Select(x => x.D5).ToArray(),
+                .. query.Select(x => x.D6).ToArray(),
+            ];
 
             var queryGrupo = todosNumeros
                 .GroupBy(x => x)
