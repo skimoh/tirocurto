@@ -1,5 +1,5 @@
 ﻿
-namespace CodeBehind.TiroCurto.Game
+namespace CodeBehind.TiroCurto.Voador
 {
     partial class frmGameStart
     {

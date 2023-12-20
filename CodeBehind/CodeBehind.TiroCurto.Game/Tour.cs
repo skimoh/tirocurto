@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace CodeBehind.TiroCurto.Game
+namespace CodeBehind.TiroCurto.Voador
 {
     public partial class frmTour : Form
     {

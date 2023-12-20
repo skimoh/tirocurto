@@ -23,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.TiroCurto.Util",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Game", "Game", "{9DBBA637-24F0-4A1B-A4A8-0118280E953C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBehind.TiroCurto.Game", "CodeBehind.TiroCurto.Game\CodeBehind.TiroCurto.Game.csproj", "{DF9E07E5-F9DF-4922-889F-9F249064C6F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBehind.TiroCurto.Voador", "CodeBehind.TiroCurto.Game\CodeBehind.TiroCurto.Voador.csproj", "{DF9E07E5-F9DF-4922-889F-9F249064C6F3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure", "Azure", "{87E0A454-9C4B-4794-84D5-BA35CF897547}"
 EndProject
@@ -70,6 +70,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBehind.TiroCurto.Cobra", "CodeBehind.TiroCurto.Cobra\CodeBehind.TiroCurto.Cobra.csproj", "{1E97CCCB-F31C-4326-A197-86978FE030C2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBehind.TiroCurto.Carro", "CodeBehind.TiroCurto.Carro\CodeBehind.TiroCurto.Carro.csproj", "{A3B89C19-3072-40AC-937E-E8D90A9B5E26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBehind.TiroCurto.Breakout", "CodeBehind.TiroCurto.Fuga\CodeBehind.TiroCurto.Breakout.csproj", "{6F86EF4E-8A0D-4E5C-A342-D272422656E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -189,6 +191,10 @@ Global
 		{A3B89C19-3072-40AC-937E-E8D90A9B5E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3B89C19-3072-40AC-937E-E8D90A9B5E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3B89C19-3072-40AC-937E-E8D90A9B5E26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F86EF4E-8A0D-4E5C-A342-D272422656E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F86EF4E-8A0D-4E5C-A342-D272422656E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F86EF4E-8A0D-4E5C-A342-D272422656E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F86EF4E-8A0D-4E5C-A342-D272422656E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -209,6 +215,7 @@ Global
 		{C5DFF07C-1670-4112-A504-F82FF304C9D4} = {020BC3CA-3BC3-4D00-982C-E00FA22BA703}
 		{1E97CCCB-F31C-4326-A197-86978FE030C2} = {9DBBA637-24F0-4A1B-A4A8-0118280E953C}
 		{A3B89C19-3072-40AC-937E-E8D90A9B5E26} = {9DBBA637-24F0-4A1B-A4A8-0118280E953C}
+		{6F86EF4E-8A0D-4E5C-A342-D272422656E9} = {9DBBA637-24F0-4A1B-A4A8-0118280E953C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36B5D1C9-E29B-4B78-AD82-01D012EEA18A}
