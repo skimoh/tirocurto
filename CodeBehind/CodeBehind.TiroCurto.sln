@@ -75,6 +75,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBehind.TiroCurto.Breako
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBehind.TiroCurto.PingPong", "CodeBehind.TiroCurto.PingPong\CodeBehind.TiroCurto.PingPong.csproj", "{7DEAA5CB-9455-48DB-A76D-773EA96AF7CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBehind.TiroCurto.Tron", "CodeBehind.TiroCurto.Tron\CodeBehind.TiroCurto.Tron.csproj", "{543679DB-3276-453A-B03D-16FF7B0FBCF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +203,10 @@ Global
 		{7DEAA5CB-9455-48DB-A76D-773EA96AF7CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DEAA5CB-9455-48DB-A76D-773EA96AF7CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DEAA5CB-9455-48DB-A76D-773EA96AF7CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{543679DB-3276-453A-B03D-16FF7B0FBCF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{543679DB-3276-453A-B03D-16FF7B0FBCF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{543679DB-3276-453A-B03D-16FF7B0FBCF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{543679DB-3276-453A-B03D-16FF7B0FBCF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -223,6 +229,7 @@ Global
 		{A3B89C19-3072-40AC-937E-E8D90A9B5E26} = {9DBBA637-24F0-4A1B-A4A8-0118280E953C}
 		{6F86EF4E-8A0D-4E5C-A342-D272422656E9} = {9DBBA637-24F0-4A1B-A4A8-0118280E953C}
 		{7DEAA5CB-9455-48DB-A76D-773EA96AF7CA} = {9DBBA637-24F0-4A1B-A4A8-0118280E953C}
+		{543679DB-3276-453A-B03D-16FF7B0FBCF5} = {9DBBA637-24F0-4A1B-A4A8-0118280E953C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36B5D1C9-E29B-4B78-AD82-01D012EEA18A}
