@@ -79,8 +79,16 @@ CodeBehind/CodeBehind.Repeticao/obj/Debug/netcoreapp3.1/CodeBehind.Repeticao.pdb
 /CodeBehind/CodeBehind.TiroCurto.Conciliacao/bin/Debug/net7.0
 /CodeBehind/CodeBehind.TiroCurto.Conciliacao/obj
 /CodeBehind/CodeBehind.TiroCurto.InvokeApi/bin/Debug/net7.0
+<<<<<<< Updated upstream
 /CodeBehind/CodeBehind.TiroCurto.Loteria/bin/Debug/net8.0
 /CodeBehind/CodeBehind.TiroCurto.RastreioClick/bin/Debug/net6.0
 /CodeBehind/CodeBehind.TiroCurto.RastreioClick/obj/Debug/net6.0
 /CodeBehind/CodeBehind.TiroCurto.RastreioClick/obj
 /CodeBehind/CodeBehind.TiroCurto.EnviandoSMS/obj/Debug/net6.0
+=======
+/CodeBehind/CodeBehind.TiroCurto.RastreioClick/bin/Debug/net6.0
+/CodeBehind/CodeBehind.TiroCurto.RastreioClick/obj
+/CodeBehind/CodeBehind.TiroCurto.Loteria/bin/Debug/net8.0
+>>>>>>> Stashed changes
+/CodeBehind/CodeBehind.TiroCurto.EnviandoSMS/bin/Debug/net6.0
+/CodeBehind/CodeBehind.TiroCurto.EnviandoSMS/obj
