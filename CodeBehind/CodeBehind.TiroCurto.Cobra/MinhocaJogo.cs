@@ -1,4 +1,5 @@
-﻿namespace CodeBehind.TiroCurto.Cobra
+﻿//***CODE BEHIND - BY RODOLFO.FONSECA***//
+namespace CodeBehind.TiroCurto.Cobra
 {
     public class MinhocaJogo : IRenderable
     {

@@ -1,4 +1,4 @@
-﻿
+﻿//***CODE BEHIND - BY RODOLFO.FONSECA***//
 using CodeBehind.TiroCurto.PingPong;
 
 Engine.RemoverBarraLateral();

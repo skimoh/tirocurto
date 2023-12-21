@@ -1,4 +1,5 @@
-﻿using CodeBehind.TiroCurto.Cobra;
+﻿//***CODE BEHIND - BY RODOLFO.FONSECA***//
+using CodeBehind.TiroCurto.Cobra;
 using static System.Formats.Asn1.AsnWriter;
 
 Console.WriteLine($"-----------------------------------------");
