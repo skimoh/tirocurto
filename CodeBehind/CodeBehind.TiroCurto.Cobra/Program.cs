@@ -2,6 +2,8 @@
 using CodeBehind.TiroCurto.Cobra;
 using static System.Formats.Asn1.AsnWriter;
 
+Console.OutputEncoding = System.Text.Encoding.UTF8;
+
 Console.WriteLine($"-----------------------------------------");
 Console.WriteLine($"BEM VINDO AO JOGO DA MINHOCA MALUCA");
 Console.WriteLine("");
@@ -13,9 +15,12 @@ Thread.Sleep(4000);
 var tempoSalto = TimeSpan.FromMilliseconds(100);
 var jogoMinhoca = new MinhocaJogo();
 
+/*
+ Gerencia e envia notificação de cancelamento aos tokens de cancelamento individuais
+ */
 using (var cts = new CancellationTokenSource())
 {
-    async Task MonitorKeyPresses()
+    async Task MonitorClique()
     {
         while (!cts.Token.IsCancellationRequested)
         {
@@ -29,7 +34,7 @@ using (var cts = new CancellationTokenSource())
         }
     }
 
-    var monitorClique = MonitorKeyPresses();
+    var monitorClique = MonitorClique();
 
     do
     {
@@ -38,8 +43,7 @@ using (var cts = new CancellationTokenSource())
         await Task.Delay(tempoSalto);
 
     } while (!jogoMinhoca.fimJogo);
-
-    // Allow time for user to weep before application exits.
+    
     for (var i = 0; i < 3; i++)
     {
         Console.Clear();

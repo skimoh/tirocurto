@@ -9,13 +9,13 @@
         
         public static int _P1Score = 0;
         public static int _P1Direcao = _direita;
-        public static int _P1Coluna = 0; // column
-        public static int _P1Linha = 0; // row
+        public static int _P1Coluna = 0; 
+        public static int _P1Linha = 0; 
         
         public static int _P2Score = 0;
         public static int _P2Direcao = _esquerda;
-        public static int _P2Coluna = 40; // column
-        public static int _P2Linha = 5; // row
+        public static int _P2Coluna = 40; 
+        public static int _P2Linha = 5; 
 
 
         public static bool[,] isUsed;

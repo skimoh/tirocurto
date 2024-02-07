@@ -1,5 +1,7 @@
 ﻿using CodeBehind.TiroCurto.Tron;
 
+Console.OutputEncoding = System.Text.Encoding.UTF8;
+
 Engine.DefinindoParametro();
 Engine.IniciandoOrientacao();
 
@@ -28,7 +30,8 @@ while (true)
         Engine._P2Score++;
         Console.WriteLine();
         Console.WriteLine("GAME OVER");
-        Console.WriteLine("Empate!!!");        
+        Console.WriteLine("Empate!!!");
+        Engine.ReiniciarJogo();
     }
 
     if (P1Perdeu)
@@ -37,7 +40,8 @@ while (true)
         Console.WriteLine();
         Console.WriteLine("GAME OVER");
         Console.WriteLine("P2 Ganhou!!!");
-        
+        Engine.ReiniciarJogo();
+
     }
 
     if (P2Perdeu)
@@ -46,15 +50,11 @@ while (true)
         Console.WriteLine();
         Console.WriteLine("GAME OVER");
         Console.WriteLine("P1 Ganhou!!!");
-        
+        Engine.ReiniciarJogo();
     }
-
-    Console.WriteLine("P1 {0} - {1} P2", Engine._P1Score, Engine._P2Score);
-    Engine.ReiniciarJogo();
 
     Engine.isUsed[Engine._P1Coluna, Engine._P1Linha] = true;
     Engine.isUsed[Engine._P2Coluna, Engine._P2Linha] = true;
-
 
     Engine.DesenharTela(Engine._P1Coluna, Engine._P1Linha, '*', ConsoleColor.Yellow);
     Engine.DesenharTela(Engine._P2Coluna, Engine._P2Linha, '*', ConsoleColor.Cyan);

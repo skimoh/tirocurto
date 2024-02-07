@@ -1,6 +1,8 @@
 ﻿//***CODE BEHIND - BY RODOLFO.FONSECA***//
 using CodeBehind.TiroCurto.PingPong;
 
+Console.OutputEncoding = System.Text.Encoding.UTF8;
+
 Engine.RemoverBarraLateral();
 
 Engine.IniciandoPosicao();

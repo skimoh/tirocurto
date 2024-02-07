@@ -1,6 +1,8 @@
 ﻿//***CODE BEHIND - BY RODOLFO.FONSECA***//
 using CodeBehind.TiroCurto.Carro;
 
+Console.OutputEncoding = System.Text.Encoding.UTF8;
+
 double velocidade = 100.0;
 double aceleracao = 0.5;
 
@@ -21,6 +23,7 @@ Objeto carro = new Objeto
 Random rd = new Random();
 List<Objeto> listaObjetos = new List<Objeto>();
 
+//loop infinito
 while (true)
 {
     velocidade += aceleracao;

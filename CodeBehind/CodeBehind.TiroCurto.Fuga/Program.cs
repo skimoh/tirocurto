@@ -1,6 +1,8 @@
 ﻿//***CODE BEHIND - BY RODOLFO.FONSECA***//
 using CodeBehind.TiroCurto.Breakout;
 
+Console.OutputEncoding = System.Text.Encoding.UTF8;
+
 Console.WriteLine("");
 Console.WriteLine($"-----------------------------------------");
 Console.WriteLine($"BEM VINDO AO JOGO BREAKOUT");
