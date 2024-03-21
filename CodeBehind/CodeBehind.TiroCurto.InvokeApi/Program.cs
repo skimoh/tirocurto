@@ -1,6 +1,7 @@
 ﻿//***CODE BEHIND - BY RODOLFO.FONSECA***//
 using RestSharp;
 using System;
+using System.Threading.Tasks;
 
 namespace CodeBehind.TiroCurto.InvokeApi
 {
@@ -19,7 +20,7 @@ namespace CodeBehind.TiroCurto.InvokeApi
             RestRequest request = new RestRequest("", Method.Post);
             request.AddJsonBody(new { Id = 5 });
             var response = client.ExecuteAsync(request).GetAwaiter().GetResult();
-            if(response.StatusCode == System.Net.HttpStatusCode.OK)
+            if (response.StatusCode == System.Net.HttpStatusCode.OK)
             {
                 Console.WriteLine(response.Content);
             }
@@ -30,13 +31,32 @@ namespace CodeBehind.TiroCurto.InvokeApi
             Console.ReadKey();
         }
 
+        private async Task<object> InvocarPostAsync()
+        {
+            var client = new RestClient($"https://run.mocky.io/v3/73f60d83-f20d-4724-8d54-f98be085dd1d");
+
+            RestRequest request = new RestRequest("", Method.Post);
+            request.AddJsonBody(new { Id = 5 });
+
+            var response = await client.ExecutePostAsync(request);
+
+            if (response.StatusCode == System.Net.HttpStatusCode.OK)
+            {
+                return new { sucesso = true, dados = response.Content, erro = string.Empty };
+            }
+            else
+            {
+                return new { sucesso = false, dados = string.Empty, erro = response.ErrorMessage };
+            }
+        }
+
         private static void InvocarGet()
         {
             string cep = "37130031";
 
             var client = new RestClient($"https://viacep.com.br/ws/{cep}/json/");
             RestRequest request = new RestRequest("", Method.Get);
-            var response = client.ExecuteAsync(request).GetAwaiter().GetResult(); 
+            var response = client.ExecuteAsync(request).GetAwaiter().GetResult();
 
             if (response.StatusCode == System.Net.HttpStatusCode.OK)
                 Console.WriteLine(response.Content);

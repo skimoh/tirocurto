@@ -85,6 +85,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.TiroCurto.Persia
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBehind.TiroCurto.RoboWeb", "CodeBehind.TiroCurto.RoboWeb\CodeBehind.TiroCurto.RoboWeb.csproj", "{ACC1352A-CCD2-4D64-B67D-FC1E3D51ADD6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bot", "Bot", "{E03DA558-790C-4E32-ADD1-DAC282CE1CA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBehind.TiroCurto.TeleChat", "CodeBehind.TiroCurto.TeleChat\CodeBehind.TiroCurto.TeleChat.csproj", "{F7011342-9E5F-41F9-84C3-827BCCBC011C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -227,6 +231,10 @@ Global
 		{ACC1352A-CCD2-4D64-B67D-FC1E3D51ADD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACC1352A-CCD2-4D64-B67D-FC1E3D51ADD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACC1352A-CCD2-4D64-B67D-FC1E3D51ADD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7011342-9E5F-41F9-84C3-827BCCBC011C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7011342-9E5F-41F9-84C3-827BCCBC011C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7011342-9E5F-41F9-84C3-827BCCBC011C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7011342-9E5F-41F9-84C3-827BCCBC011C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -252,6 +260,7 @@ Global
 		{543679DB-3276-453A-B03D-16FF7B0FBCF5} = {9DBBA637-24F0-4A1B-A4A8-0118280E953C}
 		{30BD54C1-B2D1-4B1B-96FB-35C68D1C693D} = {9DBBA637-24F0-4A1B-A4A8-0118280E953C}
 		{AEA17EB0-E28B-407B-A232-42AD3374C0F1} = {A3C2D580-71F8-4EF7-B113-C8111A201F36}
+		{F7011342-9E5F-41F9-84C3-827BCCBC011C} = {E03DA558-790C-4E32-ADD1-DAC282CE1CA9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36B5D1C9-E29B-4B78-AD82-01D012EEA18A}
