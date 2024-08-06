@@ -1,0 +1,6 @@
+@CodeBehind.TiroCurto.Azure.RetornoChamada_HostAddress = http://localhost:5126
+
+GET {{CodeBehind.TiroCurto.Azure.RetornoChamada_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
