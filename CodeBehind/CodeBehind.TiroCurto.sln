@@ -93,7 +93,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.TiroCurto.Azure.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.TiroCurto.Performance", "CodeBehind.TiroCurto.Performance\CodeBehind.TiroCurto.Performance.csproj", "{3669EEFE-2C73-4650-9810-3B7AE8BE0967}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBehind.TiroCurto.ComparandoLista", "CodeBehind.TiroCurto.ComparandoLista\CodeBehind.TiroCurto.ComparandoLista.csproj", "{3BED308C-8C54-44C7-BB31-9C14D3FD89C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.TiroCurto.ComparandoLista", "CodeBehind.TiroCurto.ComparandoLista\CodeBehind.TiroCurto.ComparandoLista.csproj", "{3BED308C-8C54-44C7-BB31-9C14D3FD89C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBehind.TiroCurto.RunPython", "CodeBehind.TiroCurto.RunPython\CodeBehind.TiroCurto.RunPython.csproj", "{71431D1E-2A97-4C95-B3E4-1C6BCF63FE7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -253,6 +255,10 @@ Global
 		{3BED308C-8C54-44C7-BB31-9C14D3FD89C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BED308C-8C54-44C7-BB31-9C14D3FD89C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BED308C-8C54-44C7-BB31-9C14D3FD89C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71431D1E-2A97-4C95-B3E4-1C6BCF63FE7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71431D1E-2A97-4C95-B3E4-1C6BCF63FE7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71431D1E-2A97-4C95-B3E4-1C6BCF63FE7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71431D1E-2A97-4C95-B3E4-1C6BCF63FE7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
