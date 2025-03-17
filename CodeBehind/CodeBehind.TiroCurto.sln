@@ -95,7 +95,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.TiroCurto.Perfor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.TiroCurto.ComparandoLista", "CodeBehind.TiroCurto.ComparandoLista\CodeBehind.TiroCurto.ComparandoLista.csproj", "{3BED308C-8C54-44C7-BB31-9C14D3FD89C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBehind.TiroCurto.RunPython", "CodeBehind.TiroCurto.RunPython\CodeBehind.TiroCurto.RunPython.csproj", "{71431D1E-2A97-4C95-B3E4-1C6BCF63FE7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.TiroCurto.RunPython", "CodeBehind.TiroCurto.RunPython\CodeBehind.TiroCurto.RunPython.csproj", "{71431D1E-2A97-4C95-B3E4-1C6BCF63FE7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.TiroCurto.Falador", "CodeBehind.TiroCurto.Falador\CodeBehind.TiroCurto.Falador.csproj", "{1912548B-C1DE-4417-82BB-58767CEE81A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Falador", "Falador", "{E45C3971-E23D-448C-8F39-BFBB464063BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBehind.TiroCurto.FaladorWeb", "CodeBehind.TiroCurto.FaladorWeb\CodeBehind.TiroCurto.FaladorWeb.csproj", "{56662851-9995-4894-8339-D8E8DF7235D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -259,6 +265,14 @@ Global
 		{71431D1E-2A97-4C95-B3E4-1C6BCF63FE7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71431D1E-2A97-4C95-B3E4-1C6BCF63FE7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71431D1E-2A97-4C95-B3E4-1C6BCF63FE7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1912548B-C1DE-4417-82BB-58767CEE81A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1912548B-C1DE-4417-82BB-58767CEE81A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1912548B-C1DE-4417-82BB-58767CEE81A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1912548B-C1DE-4417-82BB-58767CEE81A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56662851-9995-4894-8339-D8E8DF7235D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56662851-9995-4894-8339-D8E8DF7235D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56662851-9995-4894-8339-D8E8DF7235D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56662851-9995-4894-8339-D8E8DF7235D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -286,6 +300,8 @@ Global
 		{AEA17EB0-E28B-407B-A232-42AD3374C0F1} = {A3C2D580-71F8-4EF7-B113-C8111A201F36}
 		{F7011342-9E5F-41F9-84C3-827BCCBC011C} = {E03DA558-790C-4E32-ADD1-DAC282CE1CA9}
 		{6C3A3421-388E-4269-85D4-DC5189FF8671} = {87E0A454-9C4B-4794-84D5-BA35CF897547}
+		{1912548B-C1DE-4417-82BB-58767CEE81A9} = {E45C3971-E23D-448C-8F39-BFBB464063BF}
+		{56662851-9995-4894-8339-D8E8DF7235D2} = {E45C3971-E23D-448C-8F39-BFBB464063BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36B5D1C9-E29B-4B78-AD82-01D012EEA18A}

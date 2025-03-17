@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CodeBehind.TiroCurto.Falador": {
+      "commandName": "Project",
+      "commandLineArgs": "\"ola mundo\""
+    }
+  }
+}
